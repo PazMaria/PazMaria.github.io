@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Serif", sans-serif;
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#title {
+  height: 95vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/macbook.jpg) no-repeat center center / cover;
+}
+
+.introduction {
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding-top: 15%;
+}
+
+h1 {
+  font-weight: 700;
+}
+.logo {
+  height: 2em;
+}
+
+.row-item {
+  height: 10vh;
+}
+/* ------------------------skills--------------------------- */
+#about {
+  padding: 5% 15%;
+}
+.skill-box {
+  text-align: center;
+  padding: 2%;
+}
+
+/* --------------------------projects--------------------- */
+#projects {
+  padding: 5% 5%;
+  background-color: #d3d6da;
+}
+.img-proj {
+  width: 100%;
+}
+
+.carImg {
+  height: 20rem;
+  width: 30rem;
+}
+.carousel-item img {
+  display: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239bacbd' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239bacbd' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+  background-color: #9bacbd;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+/* -------------------------contact---------------------------- */
+
+#contact {
+  background-image: url(./images/map2.png);
+  background-repeat: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% 30%;
+
+  color: #fff;
+  padding: 2rem 0 2rem;
+}
+
+#contact a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+#contact a:hover {
+  color: #666b71;
+}
+#contact p {
+  margin-top: 1em;
+}
+
+/* --------------------------footer---------------------------- */
+footer {
+  background-color: #fff;
+  color: #000;
+}

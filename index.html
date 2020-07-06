@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>MariaPaz-Portfolio</title>
+  </head>
+
+  <body>
+    <section id="title">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <img src="./images/logo.png" class="logo" alt="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"> Projects </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+
+      <div class="row introduction">
+        <div class="col-lg-12 row-item">
+          <h1>
+            Maria Paz
+          </h1>
+        </div>
+        <div class="col-lg-12 row-item">
+          <h2 class="dev">Web Developer</h2>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="row typing"> -->
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 row-item">
+          <p
+            class="txt-type"
+            data-wait="2000"
+            data-words='["Meaningful Projects"]'
+          ></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 row-item">
+          <p class="txt-type" data-wait="2000" data-words='["Mind Power"]'></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 row-item">
+          <p
+            class="txt-type"
+            data-wait="2000"
+            data-words='["Master Programming"]'
+          ></p>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="about">
+      <div class="row">
+        <div class="col">
+          <p>
+            Web developer with a keen eye for stylish apps. Lifetime learner
+            always looking for challenges to develop and improve my skills.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/html-5.png"
+            alt="HTML-5 logo"
+            title="HTML-5"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/css3.png"
+            alt="CSS3 logo"
+            title="CSS3"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/javascript.png"
+            alt="JavaScript logo"
+            title="JavaScript"
+          />
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/react-native.png"
+            alt="React.js logo"
+            title="React.js"
+          />
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/nodejs.png"
+            alt="Node.js logo"
+            title="Node.js"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/python.png"
+            alt="Python logo"
+            title="Python"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/sql.png"
+            alt="SQL logo"
+            title="SQL"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skill-box">
+          <img
+            src="https://img.icons8.com/color/48/000000/mongodb.png"
+            alt="MongoDB logo"
+            title="MongoDB"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+      <div class="row">
+        <div class="col-lg-6 mb-5 order-lg-1 order-1">
+          <h2>
+            Gastos
+          </h2>
+          <p>
+            MERN stack app to track expenses. Used React in the front end with
+            Context Api and useReducer hooks to manage and share state between
+            components. In the backend created an api to authenticate access to
+            the information related to each user.
+          </p>
+          <a href="https://github.com/PazMaria/Gastos-MernApp" target="_blank"
+            >Source Code</a
+          >
+        </div>
+        <div class="col-lg-6 mb-5 order-lg-2 order-2">
+          <div id="carGastos" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleCaptions"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active carImg">
+                <img src="./images/g-login.png" alt="Gastos-Login page" />
+                <em>Gastos, Login page</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/g-register.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Gastos, Registration page</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/g-home.png"
+                  class="d-block w-100"
+                  alt="Gastos-Registration page"
+                />
+                <em>Gastos, Home page</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/g-addExpense.png"
+                  class="d-block w-100"
+                  alt="Gastos-Registration page"
+                />
+                <em>Gastos, Add Expense page</em>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carGastos"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carGastos"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-5 order-lg-3 order-4">
+          <div id="carGame" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleCaptions"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active carImg">
+                <img src="./images/game-login.png" alt="Gastos-Login page" />
+                <em>Game, Login page</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/game-logos.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Game, Selection page</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/game-easy.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Game, Easy level</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/game-medium.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Game, Medium level</em>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carGame"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carGame"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 order-lg-4 order-3">
+          <h2>
+            Transformations Game
+          </h2>
+          <p>
+            Team project where following an agile methodology we created a math
+            game to teach kids geometrical transformations. Front end in React,
+            we used svg triangles on a canvas svg and manage the animations
+            using different libraries like spring and explosion for visual
+            effects.
+          </p>
+          <a
+            href="https://github.com/PazMaria/TransformationsGame"
+            target="_blank"
+            >Source Code</a
+          >
+        </div>
+
+        <div class="col-lg-6 mb-5 order-lg-5 order-5">
+          <h2>
+            Clases
+          </h2>
+          <p>Single page website created with html, css and javascript.</p>
+          <a href="https://github.com/PazMaria/clases" target="_blank"
+            >Source Code</a
+          >
+        </div>
+        <div class="col-lg-6 mb-5 order-lg-6 order-6">
+          <div id="carClases" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleCaptions"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active carImg">
+                <img src="./images/clases-home.png" alt="Gastos-Login page" />
+                <em>Clases, Title</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/clases-acerca.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Clases, About</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/clases-actividades.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Clases, Activities</em>
+              </div>
+              <div class="carousel-item carImg">
+                <img
+                  src="./images/clases-contacto.png"
+                  alt="Gastos-Registration page"
+                />
+                <em>Clases, Contact</em>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carClases"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carClases"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="row text-center">
+        <div class="col-lg-12 contact">
+          <img src="./images/logoW.png" class="logo" alt="logo" />
+          <p>You can find me here</p>
+          <a href="https://www.linkedin.com/in/maria-paz/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/PazMaria" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="row text-center">
+        <div class="col-lg-12 bottom">&copy; 2020 - Maria Paz</div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
